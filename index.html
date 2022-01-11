@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      div {
+        margin:20px;
+      }
+    </style>
+    <title>Converter</title>
+</head>
+<body>
+    <form>
+        <div>
+          <label for="currency">Конвертировать из:</label>
+          <select name="currency" id="currency"></select>
+          <label for="currency2"> в:</label>
+          <select name="currency2" id="currency2"></select>
+        </div>
+        <div>
+          <input id="userValue" type="text">
+          <label for="userValue"></label>
+        </div>
+        <div>
+          <input id="result" type="text" disabled>
+          <label for="result"></label>
+        </div>
+        <div>
+          <button class="convert" type="submit">Конвертировать</button>
+        </div>
+      </form>
+    <script src="./script.js"></script>    
+</body>
+</html>
